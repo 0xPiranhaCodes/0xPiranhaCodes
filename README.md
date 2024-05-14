@@ -1,11 +1,9 @@
-<h2 align="center">Hello there! My name is Satheesh Kumar. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h2>
-
 <p align="center">I am a Software Engineer skilled in Python, Nodejs, Java & Golang. A strong engineering professional with a Bachelor of Engineering focused in Computer Science and strong engineering experience from <a href="https://hackerearth.com">HackerEarth</a>.</p>
-
+<br>
 <p align="center"><a href="https://twitter.com/git_push_tweet"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" height=25></a> <a href="https://www.linkedin.com/in/satheesh1997/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=25></a> <a href="https://www.instagram.com/esc_wq/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=25></a>
   <a href="https://esc-wq.medium.com/"><img src="https://img.shields.io/badge/articles%20-%23323330.svg?&style=for-the-badge&logo=lbry&logoColor=white" height=25></a>
 </p>
-
+<br>
 <p align=center>
   <a href="https://github.com/satheesh1997">
     <img src="https://badges.pufler.dev/visits/satheesh1997/satheesh1997?style=flat-square&color=black&logo=github">
@@ -17,6 +15,7 @@
 <p align="center">
 <a href="https://github.com/satheesh1997"><img src="https://img.shields.io/github/followers/satheesh1997?style=social"></a>
 </p>
+<br>
 <p align="center">
   <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> &nbsp;
   <img src="https://img.shields.io/badge/django%20-%23092E20.svg?&style=for-the-badge&logo=django&logoColor=white"/> &nbsp;
@@ -43,9 +42,11 @@
   <img alt="SQLite" src ="https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white"/> &nbsp;
   
 </p>
-
+<br><br>
 <p align=center>  
   <img align=center src="https://github-readme-stats.vercel.app/api?username=satheesh1997&show_icons=true&theme=default">
+   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=satheesh1997&show_icons=true&theme=default">
 </p>
 
 
