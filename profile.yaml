@@ -1,0 +1,117 @@
+# Content for the profile README. scripts/render.py turns this into assets/*.svg.
+# Live numbers (repos, stars, followers) are pulled from the GitHub API at render time;
+# the values under `fallback` are used only when the API is unreachable.
+
+username: 0xPiranhaCodes
+name:
+  first: Satheesh
+  last: Kumar
+eyebrow: whoami
+lede: >-
+  Staff Software Engineer at HackerEarth. I build the platform behind hiring
+  assessments and coding challenges, and I keep shipping developer tooling on the
+  side: CLIs, boilerplates, bot frameworks, and a terminal that runs in your browser.
+lede_bold: Staff Software Engineer at HackerEarth.
+
+card:
+  title: profile.yaml
+  version: v2026.10
+  rows:
+    - [role, Staff Software Engineer]
+    - [org, HackerEarth, cyan]
+    - [location, India]
+    - [since, "2016 · 10 yrs on GitHub"]
+    - [focus, "Python · Django · Go"]
+    - [packages, "webpty, iaBot (PyPI)"]
+    - [status, "● shipping", green]
+
+links:
+  - { id: site,      label: satheesh.dev,     url: "https://satheesh.dev",                         primary: true }
+  - { id: linkedin,  label: linkedin,         url: "https://www.linkedin.com/in/satheesh1997/" }
+  - { id: x,         label: "@0xPiranhaCodes", url: "https://twitter.com/0xPiranhaCodes" }
+  - { id: medium,    label: medium,           url: "https://esc-wq.medium.com/" }
+  - { id: instagram, label: instagram,        url: "https://www.instagram.com/esc_wq/" }
+
+stats:
+  first_commit_year: 2016
+  tiles:
+    - { key: repos,     label: Repositories,  sub: "public, across 7 languages", live: true }
+    - { key: stars,     label: Stars earned,  sub: "across all repositories",    live: true }
+    - { key: followers, label: Followers,     sub: "on GitHub",                  live: true }
+    - { key: years,     label: Years shipping, sub: "first commit · 2016",       suffix: yrs }
+
+sections:
+  activity: { cmd: 'git log --since="1 year ago"', title: Activity }
+  projects: { cmd: "ls ~/projects --sort=stars",   title: Featured projects }
+  stack:    { cmd: "cat stack.toml",                title: Stack }
+
+projects:
+  - repo: webpty
+    desc: Shell and shell-based apps in the browser. Tornado, WebSockets and xterm.js, pip-installable.
+    lang: Python
+    tags: [Tornado, xterm.js, PyPI]
+  - repo: iaBot
+    desc: A mini framework for building bots in Python with pluggable serving backends.
+    lang: Python
+    tags: [Framework, PyPI]
+  - repo: hckre-cli-v1
+    name: hckre-cli
+    desc: One-stop CLI for HackerEarth's engineering and support teams.
+    lang: TypeScript
+    tags: [oclif]
+  - repo: boom
+    desc: Go API on AWS Lambda backing every app under *.satheesh.dev.
+    lang: Go
+    tags: [Gin, Lambda]
+  - repo: django-boilerplate
+    desc: Production-ready Django starter with tests, coverage, Docker, gunicorn and nginx.
+    lang: Python
+    tags: [Django, Docker]
+  - repo: sache
+    desc: LRU cache in Go using a map plus a doubly linked list. Small and focused.
+    lang: Go
+    tags: [Data structures]
+
+more_projects:
+  - [node-codecompiler-ide, "Web IDE that compiles code and checks it against test cases", "Node.js · Express · MongoDB"]
+  - [rest-microservice, "Flask microservice boilerplate with Docker Compose and MySQL", "Python · Flask · Docker"]
+  - [django-3.x-api-boilerplate, "DRF API starter with pipenv and pre-commit hooks", "Django REST Framework"]
+  - [django-ease, "Abstract models, utils and decorators reused across Django apps", "Python · Django"]
+  - [python3-boilerplate, "Minimal Python 3 project template with pytest", "Python"]
+  - [express-auth-service, "Drop-in auth service", "Node.js · MongoDB"]
+  - [blogify-api, "Blog backend API", "Ruby on Rails"]
+  - [rails-jwt, "JWT auth API", "Ruby on Rails"]
+  - [go-notifier, "Desktop notifications package", "Go"]
+  - [go-weather, "Weather CLI", "Go"]
+  - [simple-cdn, "Static file serving for dev", "Docker"]
+  - [assets, "Static assets for *.satheesh.dev", "GitHub Pages"]
+  - [tut-django-like-shell-plus, "Companion code for a Medium article", "Python"]
+  - [tut-react-dark-mode, "Companion code for a Medium article", "React"]
+
+stack:
+  - title: languages
+    items: [Python, Go, TypeScript, JavaScript, Java, Ruby, C]
+  - title: frameworks
+    items: [Django, DRF, Flask, Tornado, Node.js, Express, React, Gin, Rails]
+  - title: data & infra
+    items: [PostgreSQL, MySQL, MongoDB, Redis, Docker, AWS, Lambda, Nginx, GitHub Actions, Ubuntu, Firebase]
+
+lang_colors:
+  Python: "#3776AB"
+  Go: "#00ADD8"
+  TypeScript: "#3178C6"
+  JavaScript: "#F7DF1E"
+  Java: "#ED8B00"
+  Ruby: "#CC342D"
+  C: "#A8B9CC"
+  Django: "#44B78B"
+
+quote:
+  text: "Pausing development as I head to HackerEarth for an internship, but I'll be back to level this up."
+  cite: "— a 2017 commit message. Still there, still leveling up."
+
+fallback:
+  repos: 44
+  stars: 25
+  followers: 20
+  project_stars: { webpty: 16, hckre-cli-v1: 4, django-boilerplate: 2, iaBot: 1, boom: 0, sache: 0 }

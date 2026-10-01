@@ -1,0 +1,4 @@
+fonttools>=4.50
+brotli>=1.1
+PyYAML>=6.0
+requests>=2.31
