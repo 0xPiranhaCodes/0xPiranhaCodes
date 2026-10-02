@@ -26,7 +26,7 @@ card:
     - [status, "● shipping", green]
 
 links:
-  - { id: site,      label: satheesh.dev,     url: "https://satheesh.dev",                         primary: true }
+  - { id: site,      label: piranha.studio,   url: "https://piranha.studio",                         primary: true }
   - { id: linkedin,  label: linkedin,         url: "https://www.linkedin.com/in/satheesh1997/" }
   - { id: x,         label: "@0xPiranhaCodes", url: "https://twitter.com/0xPiranhaCodes" }
   - { id: medium,    label: medium,           url: "https://esc-wq.medium.com/" }
@@ -60,7 +60,7 @@ projects:
     lang: TypeScript
     tags: [oclif]
   - repo: boom
-    desc: Go API on AWS Lambda backing every app under *.satheesh.dev.
+    desc: Go API on AWS Lambda backing every app under *.piranha.studio.
     lang: Go
     tags: [Gin, Lambda]
   - repo: django-boilerplate
@@ -84,7 +84,7 @@ more_projects:
   - [go-notifier, "Desktop notifications package", "Go"]
   - [go-weather, "Weather CLI", "Go"]
   - [simple-cdn, "Static file serving for dev", "Docker"]
-  - [assets, "Static assets for *.satheesh.dev", "GitHub Pages"]
+  - [assets, "Static assets for *.piranha.studio", "GitHub Pages"]
   - [tut-django-like-shell-plus, "Companion code for a Medium article", "Python"]
   - [tut-react-dark-mode, "Companion code for a Medium article", "React"]
 

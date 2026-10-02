@@ -553,7 +553,7 @@ def render_readme(p: dict, link_widths: dict[str, int]) -> str:
     return f"""<!-- Rendered by scripts/render.py from profile.yaml. Edit those, not this file. -->
 
 <p>
-  <a href="https://satheesh.dev">{pic("hero", "Satheesh Kumar, Staff Software Engineer at HackerEarth", 'width="100%"')}</a>
+  <a href="https://piranha.studio">{pic("hero", "Satheesh Kumar, Staff Software Engineer at HackerEarth", 'width="100%"')}</a>
 </p>
 
 <p>

@@ -1,11 +1,11 @@
 <!-- Rendered by scripts/render.py from profile.yaml. Edit those, not this file. -->
 
 <p>
-  <a href="https://satheesh.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg"><img src="assets/hero-light.svg" width="100%" alt="Satheesh Kumar, Staff Software Engineer at HackerEarth"></picture></a>
+  <a href="https://piranha.studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg"><img src="assets/hero-light.svg" width="100%" alt="Satheesh Kumar, Staff Software Engineer at HackerEarth"></picture></a>
 </p>
 
 <p>
-  <a href="https://satheesh.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-site.svg"><img src="assets/link-site-light.svg" height="36" alt="satheesh.dev"></picture></a>
+  <a href="https://piranha.studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-site.svg"><img src="assets/link-site-light.svg" height="36" alt="piranha.studio"></picture></a>
   <a href="https://www.linkedin.com/in/satheesh1997/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-linkedin.svg"><img src="assets/link-linkedin-light.svg" height="36" alt="linkedin"></picture></a>
   <a href="https://twitter.com/0xPiranhaCodes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-x.svg"><img src="assets/link-x-light.svg" height="36" alt="@0xPiranhaCodes"></picture></a>
   <a href="https://esc-wq.medium.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-medium.svg"><img src="assets/link-medium-light.svg" height="36" alt="medium"></picture></a>
@@ -51,7 +51,7 @@
 | [go-notifier](https://github.com/0xPiranhaCodes/go-notifier) | Desktop notifications package | `Go` |
 | [go-weather](https://github.com/0xPiranhaCodes/go-weather) | Weather CLI | `Go` |
 | [simple-cdn](https://github.com/0xPiranhaCodes/simple-cdn) | Static file serving for dev | `Docker` |
-| [assets](https://github.com/0xPiranhaCodes/assets) | Static assets for *.satheesh.dev | `GitHub Pages` |
+| [assets](https://github.com/0xPiranhaCodes/assets) | Static assets for *.piranha.studio | `GitHub Pages` |
 | [tut-django-like-shell-plus](https://github.com/0xPiranhaCodes/tut-django-like-shell-plus) | Companion code for a Medium article | `Python` |
 | [tut-react-dark-mode](https://github.com/0xPiranhaCodes/tut-react-dark-mode) | Companion code for a Medium article | `React` |
 
